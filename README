@@ -1,0 +1,4 @@
+# Nodejs CI/CD-Pipeline
+Projekt für die Hochschule Bonn-Rhein-Sieg.
+
+Ziel von diesem soll es sein automatische tests durchführen zu lassen und diese automatisiert in Dockercontainer erzeugen zu lassen.
