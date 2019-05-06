@@ -7,8 +7,6 @@ USER node
 #App Verzeichniss erstellen
 WORKDIR /usr/src/app
 
-RUN echo "Ordner mounten"
-
 #package.json und package-lock.json kopieren
 COPY package*.json ./
 
@@ -22,6 +20,8 @@ EXPOSE 8080
 
 #npm starten auf der CLI
 CMD [ "npm", "start" ]
+CMD [ "npm", "i" , "--save-dev" , "supertest" , "should" , "mocha"]
+CMD [ "npm", "i" , "-g" , "mocha"]
 
 #index.js ausführen
 CMD ["node","index.js"]
