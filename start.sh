@@ -6,7 +6,7 @@ npm i --save-dev supertest should mocha
 npm i -g mocha
 
 #index.js ausführen
-node index.js
+xterm -e "node index.js"
 
-#neues Terminal öffnen
+#mocha test ausführen
 term -e "mocha"
