@@ -9,6 +9,8 @@ COPY package*.json ./
 #nodejs installieren
 RUN npm install
 
+COPY . .
+
 #Port nach außen freigeben
 EXPOSE 8080
 
